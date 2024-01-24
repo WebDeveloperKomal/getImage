@@ -1,0 +1,26 @@
+<h1 class="header">Customer Profile</h1>
+<hr>
+<div class="tabView">
+    <mat-tab-group>
+        <mat-tab label="Summary" class="Summary" > 
+            <mat-card class="summaryCard">
+                <mat-card-content></mat-card-content>
+               
+               <div class="profileCard">
+                <h1>{{profileData.title}}</h1>
+                <!-- <div><img alt="item" src="{{profileData.image}}"></div> -->
+                
+               </div> 
+               <div class="profile-container">
+                <img class="profile-image" src="{{profileData.image}}" alt="User Profile">
+              </div> 
+              </mat-card>
+        </mat-tab>
+        <mat-tab label="Profile"> Profile </mat-tab>
+        <mat-tab label="Documents"> Documents </mat-tab>
+        <mat-tab label="Occupation & Income"> Occupation & Income </mat-tab>
+        <mat-tab label="Autorized signtory"> Autorized signtory </mat-tab>
+        <mat-tab label="Customer Interaction "> Customer Interaction </mat-tab>
+      </mat-tab-group>
+
+</div>
